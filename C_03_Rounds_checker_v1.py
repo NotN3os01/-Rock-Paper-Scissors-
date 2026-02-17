@@ -6,9 +6,10 @@ def int_check(to_check):
             response = int(input("What is the game goal? "))
 
             if response < 1:
-                        # print(error)
-            else:
+                # print(error)
                 return "invalid"
+            else:
+                return response
 
         except ValueError:
             # print(error)
